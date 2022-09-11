@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include repost_item_valuation *.css
+recursive-include repost_item_valuation *.csv
+recursive-include repost_item_valuation *.html
+recursive-include repost_item_valuation *.ico
+recursive-include repost_item_valuation *.js
+recursive-include repost_item_valuation *.json
+recursive-include repost_item_valuation *.md
+recursive-include repost_item_valuation *.png
+recursive-include repost_item_valuation *.py
+recursive-include repost_item_valuation *.svg
+recursive-include repost_item_valuation *.txt
+recursive-exclude repost_item_valuation *.pyc
